@@ -60,7 +60,7 @@ label {
   }
   #sub_button {
     width: 15%;
-    padding: 0 auto;
+    margin: 0 auto;
     padding-top: .5em;
   }
   body {
