@@ -37,7 +37,8 @@ label {
   text-align: center;
   height: 20px;
   margin: 0 auto;
-  padding: 1em;
+  margin-bottom: .5em;
+  margin-top: .5em;
 }
 
 @media screen and (min-width: 620px) {
@@ -47,11 +48,13 @@ label {
     background-color: pink;
     margin-right: 5px;
     font-size: 1.3em;
-    width: 30%;
+    width: 50%;
     height: 20px;
 
   }
   #sub_button {
     width: 15%;
+    padding: 0 auto;
+    padding-top: .5em;
   }
   
