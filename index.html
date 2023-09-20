@@ -8,8 +8,9 @@
   <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
 <body>
+  <h1>Enter your information to register!</h1>
   <form method="POST" autocomplete="on" action="http://kriedan@bloomingdale.sat.iit.edu/kriedan/formdemoscript.php" enctype="multipart/form-data">
-    <fieldset>
+    <fieldset id="wrap">
       <div>
         <label>First Name: <input type="text" name="FNtext_field" placeholder="Jane" ></label>
         <label>Last Name: <input type="text" name="LNtext_field" placeholder="Doe" ></label>
@@ -26,7 +27,9 @@
         <label for="user_BD">Enter your birthday:</label>
         <input type="date" id="user_BD" name="birthday" />
       </div>
+      <div id="sub_button">
       <input type="submit" value="Submit Form!">
+      </div>
     </fieldset>
   </form>
 </body>
